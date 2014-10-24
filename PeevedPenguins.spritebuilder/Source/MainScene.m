@@ -9,5 +9,6 @@
 #import "MainScene.h"
 
 @implementation MainScene
-
-@end
+- (void)play {
+    CCLOG(@"play button pressed");
+}@end
