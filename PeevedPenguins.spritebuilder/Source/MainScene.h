@@ -9,8 +9,5 @@
 #import "CCNode.h"
 
 @interface MainScene : CCNode
-- (void)play {
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gameplayScene];
-}
+
 @end
